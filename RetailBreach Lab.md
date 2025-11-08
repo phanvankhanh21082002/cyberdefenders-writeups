@@ -32,7 +32,7 @@ ip.src == 111.224.180.128 && http
 
 7. Exploiting vulnerabilities to access sensitive system files is a common tactic used by attackers. Can you identify the specific payload the attacker used to access a sensitive system file?
 
-=> Packet "10217" see path traversal attack: "GET /admin/log_viewer.php?file=../../../../../etc/passwd HTTP/1.1\r\n"
+=> Packet "10217" see path traversal attack: "GET /admin/log_viewer.php?file=../../../../../etc/passwd HTTP/1.1\r\n"    
 
 
 
